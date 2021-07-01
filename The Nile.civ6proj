@@ -19,10 +19,9 @@
     <AssemblyName>The Nile</AssemblyName>
     <RootNamespace>The Nile</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNile"><Properties><Name>The Nile</Name><Description>The map of the Nile</Description><Group>StandardMaps</Group></Properties><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportNile"><File>Maps/Nile.lua</File></ImportFiles><UpdateArt id="UpdateArt"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateDatabase id="UpdateDatabase"><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateIcons id="UpdateIcons"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportNile"><File>Maps/Nile.lua</File></ImportFiles><UpdateArt id="UpdateArt"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateIcons id="UpdateIcons"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Scenario: Gifts of the Nile" id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" />
-  <Reference type="Dlc" title="DLC: Nubia Civilization Pack" id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" />
 </Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
