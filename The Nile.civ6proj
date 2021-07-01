@@ -3,14 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>The Nile</Name>
-    <Guid>6f7d8512-d428-4fc4-8edc-7511c430038a</Guid>
-    <ProjectGuid>bd021a49-c02d-499a-93b0-11768eafc15c</ProjectGuid>
+    <Guid>245ce2a3-e8b5-409a-99ed-6e2eb6720b52</Guid>
+    <ProjectGuid>80b4f176-736b-43e3-b071-90f9ec71aeda</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>The map of the Nile.</Teaser>
-    <Description>The map of the Nile from the scenario Gifts of The Nile.[NEWLINE]The map includes gold (resource) and the cateract feature along with the Nile river as a new feature from the scenario.</Description>
+    <Teaser>The Nile map from the scenario Gifts of The Nile</Teaser>
+    <Description>The Nile map from the scenario Gifts of The Nile.[NEWLINE]The map also includes gold as a resource, the Nile river as a terrain and Cataracts as a feature.</Description>
     <Authors>blkbutterfly74</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>Firaxis</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -18,11 +17,8 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>The Nile</AssemblyName>
     <RootNamespace>The Nile</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNile"><Properties><Name>The Nile</Name><Description>The map of the Nile</Description><Group>StandardMaps</Group></Properties><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportNile"><File>Maps/Nile.lua</File></ImportFiles><UpdateArt id="UpdateArt"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateIcons id="UpdateIcons"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText></InGameActions>]]></InGameActionData>
-    <AssociationData><![CDATA[<Associations>
-  <Dependency type="Dlc" title="Scenario: Gifts of the Nile" id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" />
-</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNileMap"><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
