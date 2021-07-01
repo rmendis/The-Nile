@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nile_Data -->
+<!-- Author: Ed Beach (Firaxis), blklbutterfly74 -->
+<!-- DateCreated: 7/1/2021 11:49:49 AM -->
+<GameInfo>
+	<Types>
+		<Row Type="FEATURE_CATARACT" Kind="KIND_FEATURE"/>
+		<Row Type="RESOURCE_GOLD" Kind="KIND_RESOURCE"/>
+		<Row Type="TERRAIN_NILE_RIVER" Kind="KIND_TERRAIN"/>
+	</Types>
+	
+	<GlobalParameters>
+		<Update>
+			<Where Name="MOVEMENT_RIVER_COST"/>
+			<Set>
+				<Value>1</Value>
+			</Set>
+		</Update>
+	</GlobalParameters>
+	
+	<Terrains>
+		<Row TerrainType="TERRAIN_NILE_RIVER" Name="LOC_TERRAIN_NILE_RIVER_NAME" Water="true" ShallowWater="true" MovementCost="1" InfluenceCost="1" Appeal="1"/>
+	</Terrains>
+	
+	<Terrain_YieldChanges>
+		<Row TerrainType="TERRAIN_NILE_RIVER" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_NILE_RIVER" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</Terrain_YieldChanges>
+	
+	<Features>
+		<Update>
+			<Where FeatureType="FEATURE_FLOODPLAINS"/>
+			<Set>
+				<RequiresRiver>false</RequiresRiver>
+			</Set>
+		</Update>
+		<Row FeatureType="FEATURE_CATARACT" Name="LOC_FEATURE_CATARACT_NAME" MovementChange="3"/>
+	</Features>
+	<Feature_ValidTerrains>
+		<Update>
+			<Where FeatureType="FEATURE_OASIS"/>
+			<Set>
+				<TerrainType>TERRAIN_GRASS</TerrainType>
+			</Set>
+		</Update>
+		<Row FeatureType="FEATURE_CATARACT" TerrainType="TERRAIN_NILE_RIVER"/>
+	</Feature_ValidTerrains>
+
+	<Improvement_ValidResources>
+		<!-- Mine-->
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_GOLD"/>
+	</Improvement_ValidResources>
+
+
+	<Resources>
+		<Row ResourceType="RESOURCE_GOLD" Name="LOC_RESOURCE_SCENARIO_GOLD_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="6"/>
+	</Resources>
+	
+	<Resource_ValidTerrains>
+		<!--New -->
+		<Row ResourceType="RESOURCE_CATTLE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_FISH" TerrainType="TERRAIN_NILE_RIVER"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_GOLD" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS"/>
+	</Resource_ValidTerrains>
+	
+	<Resource_YieldChanges>
+		<!--Luxury-->
+		<Row ResourceType="RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="3"/>
+	</Resource_YieldChanges>
+	
+</GameInfo>
