@@ -17,7 +17,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>The Nile</AssemblyName>
     <RootNamespace>The Nile</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNileMap"><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNileMap"><Properties><Name>The Nile</Name><Description>The map of the Nile</Description><Group>StandardMaps</Group></Properties><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
