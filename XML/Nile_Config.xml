@@ -4,9 +4,9 @@
 <!-- DateCreated: 7/1/2021 12:12:39 PM -->
 <GameInfo>
 	<MapSizes>
-		<Row Domain="{6f7d8512-d428-4fc4-8edc-7511c430038a}Maps/Nile.Civ6Map" MapSizeType="MAPSIZE_SMALL" Name="LOC_MAPSIZE_SMALL_NAME" Description="LOC_MAPSIZE_SMALL_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="6" MinCityStates="13" MaxCityStates="13" DefaultCityStates="13" SortIndex="10"/>
+		<Row Domain="{245ce2a3-e8b5-409a-99ed-6e2eb6720b52}Maps/Nile.Civ6Map" MapSizeType="MAPSIZE_SMALL" Name="LOC_MAPSIZE_SMALL_NAME" Description="LOC_MAPSIZE_SMALL_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="6" MinCityStates="13" MaxCityStates="13" DefaultCityStates="13" SortIndex="10"/>
 	</MapSizes>
 	<MapDomainOverrides>
-		<Row Map="{6f7d8512-d428-4fc4-8edc-7511c430038a}Maps/Nile.Civ6Map" ParameterId="MapSize" Domain="{6f7d8512-d428-4fc4-8edc-7511c430038a}Maps/Nile.Civ6Map"/>
+		<Row Map="{245ce2a3-e8b5-409a-99ed-6e2eb6720b52}Maps/Nile.Civ6Map" ParameterId="MapSize" Domain="{245ce2a3-e8b5-409a-99ed-6e2eb6720b52}Maps/Nile.Civ6Map"/>
 	</MapDomainOverrides>
 </GameInfo>
