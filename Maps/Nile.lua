@@ -7,8 +7,6 @@ include "MapUtilities"
 
 -- ===========================================================================
 function InitializeNewGame()
-
-	print("Adding goodies");
 	local gridWidth, gridHeight = Map.GetGridSize();
 	AddGoodies(gridWidth, gridHeight);
 
