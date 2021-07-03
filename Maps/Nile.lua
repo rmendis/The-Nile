@@ -8,8 +8,11 @@ include "MapUtilities"
 -- ===========================================================================
 function InitializeNewGame()
 
+	print("Adding goodies");
 	local gridWidth, gridHeight = Map.GetGridSize();
 	AddGoodies(gridWidth, gridHeight);
+
+	print("Adding Ley lines");
 	AddLeyLines();
 
 end
