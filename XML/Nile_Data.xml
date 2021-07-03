@@ -29,12 +29,7 @@
 
 	<Improvement_ValidTerrains>
 		<Row ImprovementType="IMPROVEMENT_KAMPUNG" TerrainType="TERRAIN_NILE_RIVER"/>
-		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_NILE_RIVER"/>
-		<Row ImprovementType="IMPROVEMENT_FISHERY" TerrainType="TERRAIN_NILE_RIVER"/>
-		<Row ImprovementType="IMPROVEMENT_SEASTEAD" TerrainType="TERRAIN_NILE_RIVER"/>
-		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" TerrainType="TERRAIN_NILE_RIVER"/>
 		<Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_NILE_RIVER"/>
-		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" TerrainType="TERRAIN_NILE_RIVER"/>
 	</Improvement_ValidTerrains>
 	
 	<Features>

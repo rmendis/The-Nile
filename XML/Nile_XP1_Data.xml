@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nile_XP1_Data -->
+<!-- Author: blkutterfly74 -->
+<!-- DateCreated: 7/3/2021 7:38:00 PM -->
+<GameInfo>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_NILE_RIVER"/>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" TerrainType="TERRAIN_NILE_RIVER"/>
+	</Improvement_ValidTerrains>
+</GameInfo>

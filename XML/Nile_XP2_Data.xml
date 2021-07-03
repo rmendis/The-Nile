@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nile_XP2_Data -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 7/3/2021 7:40:01 PM -->
+<GameInfo>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" TerrainType="TERRAIN_NILE_RIVER"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" TerrainType="TERRAIN_NILE_RIVER"/>
+	</Improvement_ValidTerrains>
+</GameInfo>
