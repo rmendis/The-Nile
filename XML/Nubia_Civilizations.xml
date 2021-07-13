@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nubia_Civilizations -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 7/13/2021 4:16:43 PM -->
+<GameInfo>
+	<!-- Egypt mod from the scenario for prod bonus adjacent to coast rather than river -->
+	<Modifiers>
+		<Update>
+			<Where ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_DISTRICT"/>
+			<Set>
+				<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+				<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND</SubjectRequirementSetId>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_WONDER"/>
+			<Set>
+				<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+				<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND</SubjectRequirementSetId>
+			</Set>
+		</Update>
+	</Modifiers>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND</RequirementSetId>
+			<RequirementId>PLOT_IS_COASTALLAND</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_IS_COASTALLAND</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_COASTAL_LAND</RequirementType>
+		</Row>
+	</Requirements>
+</GameInfo>

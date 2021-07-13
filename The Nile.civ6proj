@@ -5,7 +5,7 @@
     <Name>The Nile</Name>
     <Guid>245ce2a3-e8b5-409a-99ed-6e2eb6720b52</Guid>
     <ProjectGuid>80b4f176-736b-43e3-b071-90f9ec71aeda</ProjectGuid>
-    <ModVersion>4</ModVersion>
+    <ModVersion>5</ModVersion>
     <Teaser>The Nile map from the scenario Gifts of The Nile</Teaser>
     <Description>The Nile map from the scenario Gifts of The Nile.[NEWLINE]The map also includes gold as a resource, the Nile river as a terrain and Cataracts as a feature.</Description>
     <Authors>blkbutterfly74</Authors>
@@ -18,7 +18,7 @@
     <AssemblyName>The Nile</AssemblyName>
     <RootNamespace>The Nile</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNileMap"><Properties><Name>The Nile</Name><Description>The map of the Nile</Description><Group>StandardMaps</Group></Properties><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><Criteria>NileMapInUse</Criteria><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>NileMapInUse</Criteria><File>XML/Nile_Data.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText><UpdateLogitechARX id="UpdateLogitecARX"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioARX" /></UpdateLogitechARX><UpdateDatabase id="UpdateForXP1"><Criteria>XP1InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase><UpdateDatabase id="UpdateForXP2"><Criteria>XP2InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP2_Data.xml</File><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><Criteria>NileMapInUse</Criteria><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>NileMapInUse</Criteria><File>XML/Nile_Data.xml</File><File>XML/Nubia_Civilizations.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText><UpdateLogitechARX id="UpdateLogitecARX"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioARX" /></UpdateLogitechARX><UpdateDatabase id="UpdateForXP1"><Criteria>XP1InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase><UpdateDatabase id="UpdateForXP2"><Criteria>XP2InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP2_Data.xml</File><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Scenario: Gifts of the Nile" id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" />
 </Associations>]]></AssociationData>
@@ -48,6 +48,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XML\Nile_XP2_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Nubia_Civilizations.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
