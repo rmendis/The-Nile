@@ -5,7 +5,7 @@
     <Name>The Nile</Name>
     <Guid>245ce2a3-e8b5-409a-99ed-6e2eb6720b52</Guid>
     <ProjectGuid>80b4f176-736b-43e3-b071-90f9ec71aeda</ProjectGuid>
-    <ModVersion>5</ModVersion>
+    <ModVersion>6</ModVersion>
     <Teaser>The Nile map from the scenario Gifts of The Nile</Teaser>
     <Description>The Nile map from the scenario Gifts of The Nile.[NEWLINE]The map also includes gold as a resource, the Nile river as a terrain and Cataracts as a feature.</Description>
     <Authors>blkbutterfly74</Authors>
@@ -18,11 +18,12 @@
     <AssemblyName>The Nile</AssemblyName>
     <RootNamespace>The Nile</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><AddMap id="AddNileMap"><Properties><Name>The Nile</Name><Description>The map of the Nile</Description><Group>StandardMaps</Group></Properties><File>Maps/Nile.Civ6Map</File></AddMap><UpdateDatabase id="UpdateConfig"><File>XML/Nile_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><Criteria>NileMapInUse</Criteria><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>NileMapInUse</Criteria><File>XML/Nile_Data.xml</File><File>XML/Nubia_Civilizations.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /></UpdateText><UpdateLogitechARX id="UpdateLogitecARX"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioARX" /></UpdateLogitechARX><UpdateDatabase id="UpdateForXP1"><Criteria>XP1InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase><UpdateDatabase id="UpdateForXP2"><Criteria>XP2InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP2_Data.xml</File><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="ImportMapScript"><Criteria>NileMapInUse</Criteria><File>Maps/Nile.lua</File></ImportFiles><UpdateDatabase id="UpdateDatabase"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>NileMapInUse</Criteria><File>XML/Nile_Data.xml</File><File>XML/Nubia_Civilizations.xml</File><File>XML/Nile_Monopolies_MODE.xml</File></UpdateDatabase><UpdateArt id="UpdateArt"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioArt" /></UpdateArt><UpdateIcons id="UpdateIcons"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioInGameIcons" /></UpdateIcons><UpdateText id="UpdateText"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioText" /><File>XML/Nile_Text.xml</File></UpdateText><UpdateLogitechARX id="UpdateLogitecARX"><Criteria>NileMapInUse</Criteria><Include mod_id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" action_id="NubiaScenarioARX" /></UpdateLogitechARX><UpdateDatabase id="UpdateForXP1"><Criteria>XP1InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase><UpdateDatabase id="UpdateForXP2"><Criteria>XP2InUse</Criteria><Criteria>NileMapInUse</Criteria><File>XML/Nile_XP2_Data.xml</File><File>XML/Nile_XP1_Data.xml</File></UpdateDatabase><UpdateIcons id="UpdateMODEIcons"><Criteria>NileMapInUse</Criteria><Criteria>MonopoliesModeInUse</Criteria><File>XML/Nile_Icons_MODE.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Scenario: Gifts of the Nile" id="7619F77B-BAA7-4912-AA6E-45C124E6ECFD" />
+  <Reference type="Dlc" title="Vietnam &amp; Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
 </Associations>]]></AssociationData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="NileMapInUse"><MapInUse>{245ce2a3-e8b5-409a-99ed-6e2eb6720b52}Maps/Nile.Civ6Map</MapInUse></Criteria><Criteria id="XP1InUse"><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="XP2InUse"><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="NileMapInUse"><MapInUse>{245ce2a3-e8b5-409a-99ed-6e2eb6720b52}Maps/Nile.Civ6Map</MapInUse></Criteria><Criteria id="XP1InUse"><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="XP2InUse"><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="MonopoliesModeInUse"><ConfigurationValueMatches><ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId><Group>Game</Group><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -42,6 +43,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XML\Nile_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Nile_Icons_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Nile_Monopolies_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Nile_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XML\Nile_XP1_Data.xml">

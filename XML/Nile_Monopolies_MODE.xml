@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nile_Monopolies_MODE -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 7/15/2021 3:14:42 PM -->
+<GameInfo>
+	<Improvement_ValidResources>
+		<Row ImprovementType="IMPROVEMENT_INDUSTRY" ResourceType="RESOURCE_GOLD" MustRemoveFeature="false"/>
+	</Improvement_ValidResources>
+
+	<ResourceIndustries>
+		<Row ResourceType="RESOURCE_GOLD"   ResourceEffect="INDUSTRY_GOLD_YIELD_BONUS" ResourceEffectText="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION"/>
+	</ResourceIndustries>
+</GameInfo>

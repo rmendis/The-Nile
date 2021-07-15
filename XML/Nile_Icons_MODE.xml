@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nile_Icons_MODE -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 7/15/2021 3:45:04 PM -->
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_MONOPOLIES_AND_CORPS_RESOURCE_GOLD"         Atlas="ICON_ATLAS_RESOURCES_MONOPOLIES_AND_CORPS" Index="17"/>
+
+		<Row Name="ICON_MONOPOLIES_AND_CORPS_RESOURCE_GOLD_FOW"         Atlas="ICON_ATLAS_RESOURCES_MONOPOLIES_AND_CORPS_FOW" Index="17"/>
+	</IconDefinitions>
+</GameInfo>
