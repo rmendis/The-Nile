@@ -8,5 +8,32 @@
 		<Row Tag="LOC_RESOURCE_GOLD_NAME">
 			<Text>Gold Ore</Text>
 		</Row>
+
+		<!-- Monopolies Mode -->
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_NAME">
+			<Text>[ICON_RESOURCE_GOLD] Gold Corporation: Create New Product</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME">
+			<Text>[ICON_RESOURCE_GOLD] Create New Gold Product</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION">
+			<Text>Create a new product for the world based on the [ICON_RESOURCE_GOLD] Gold resource. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Row>
+		
+		<Row Tag="LOC_GREATWORK_PRODUCT_GOLD_1_NAME">
+			<Text>Dark of the Moon Gold Jewelry</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_GOLD_2_NAME">
+			<Text>Fadaka Gold Bullion</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_GOLD_3_NAME">
+			<Text>Gigastorm Microcontrollers</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_GOLD_4_NAME">
+			<Text>Connecto Gold Watches</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PRODUCT_GOLD_5_NAME">
+			<Text>Unforgettable Dental Fillings</Text>
+		</Row>
 	</EnglishText>
 </GameData>
