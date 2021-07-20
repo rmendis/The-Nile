@@ -73,20 +73,23 @@
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
+		<!--Product Modifiers-->
 		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"   ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" SubjectStackLimit="1"/>
-		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"     Name="Amount" Value="25"/>
-		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"     Name="YieldType" Value="YIELD_GOLD"/>
 
 		<!--Product Project Completion Modifiers-->
 		<Row ModifierId="PROJECT_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD" ModifierType="MODIFIER_PLAYER_GRANT_RANDOM_RESOURCE_PRODUCT"/>
-
-		<!--Product Modifiers-->
-		<Row ModifierId="PRODUCT_MILITARY_UNIT_DISCOUNT_GOLD"   ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" SubjectStackLimit="1"/>
 	</Modifiers>
 
 	<ModifierStrings>
 		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"       Context="Summary" Text="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION"/>
 	</ModifierStrings>
+
+	<ModifierArguments>
+		<Row ModifierId="PROJECT_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD" Name="ResourceType" Value="RESOURCE_GOLD"/>
+		
+		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"     Name="Amount" Value="25"/>
+		<Row ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"     Name="YieldType" Value="YIELD_GOLD"/>
+	</ModifierArguments>
 
 	<RequirementArguments>
 		<Update>
