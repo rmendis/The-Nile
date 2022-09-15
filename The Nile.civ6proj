@@ -5,11 +5,11 @@
     <Name>The Nile</Name>
     <Guid>245ce2a3-e8b5-409a-99ed-6e2eb6720b52</Guid>
     <ProjectGuid>80b4f176-736b-43e3-b071-90f9ec71aeda</ProjectGuid>
-    <ModVersion>6</ModVersion>
+    <ModVersion>7</ModVersion>
     <Teaser>The Nile map from the scenario Gifts of The Nile</Teaser>
     <Description>The Nile map from the scenario Gifts of The Nile.[NEWLINE]The map also includes gold as a resource, the Nile river as a terrain and Cataracts as a feature.</Description>
     <Authors>blkbutterfly74</Authors>
-    <SpecialThanks>Firaxis</SpecialThanks>
+    <SpecialThanks>Kiddrangon</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
